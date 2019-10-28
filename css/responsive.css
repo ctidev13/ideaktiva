@@ -1,0 +1,109 @@
+/* only small desktops */
+/* tablets */
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  #hero-section .contents h1 {
+    font-size: 40px;
+  }
+  .item-boxes h4 {
+    font-size: 18px;
+  }
+  #features .show-box img {
+    display: none;
+  }
+  .values-table .values-details ul li {
+    font-size: 12px;
+  }
+  .counters .facts-item .fact-count h4 {
+    font-size: 14px;
+  }
+  .single-team {
+    margin-bottom: 30px;
+  }
+  .meta-tags span {
+    margin-right: 3px;
+  }
+  .meta-tags span i {
+    margin-right: 0px;
+  }
+  #blog .blog-item-text h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+  .section-header .section-title {
+    font-size: 20px;
+  }
+  
+  #hero-section .contents {
+    padding: 100px 0 80px;
+  }
+  #hero-section .contents h1 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  #features .show-box img {
+    display: none;
+  }
+  #features .box-item .text h4 {
+    font-size: 14px;
+  }
+  #hero-section .contents p {
+    font-size: 40px;
+    line-height: 48px;
+    color: #D41014;
+    letter-spacing: 1.0px;
+    font-weight: bold;
+    padding: 30 0px;
+  }
+  #hero-section {
+    background: url(../img/slide2.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+  .controls {
+    margin: 0px;
+  }
+ 
+  .video-promo .video-promo-content h2 {
+    font-size: 22px;
+  }
+  .values-table {
+    margin-bottom: 15px;
+  }
+  .counters .facts-item {
+    margin-bottom: 30px;
+  }
+  .single-team {
+    margin-bottom: 15px;
+  }
+  .contact-us {
+    margin-bottom: 30px;
+  }
+  .contact-us h3 {
+    font-size: 28px;
+  }
+  .footer-links li a {
+    margin-right: 10px;
+  }
+  .copyright {
+    float: left;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero-section {
+    background: url(../img/slide3.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+}
