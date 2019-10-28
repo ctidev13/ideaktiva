@@ -738,7 +738,14 @@ box-shadow: 0px 13px 64px -31px rgba(0,0,0,1);
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-
+::selection {
+  background: #FF3939;
+  color: #fff;
+}
+.custom-cursor {
+  cursor: url("//cybmeta.com/wp-content/uploads/2015/06/hal-angry-birds-cursor.png"),
+    pointer;
+}
 .values-table:hover {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
