@@ -101,6 +101,7 @@
   #hero-section {
     background: url(../img/slide3.png) no-repeat;
     background-size: cover;
+    margin: 2px;
     height: 100%;
     color: #fff;
     overflow: hidden;

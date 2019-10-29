@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap, https://fonts.googleapis.com/css?family=Poppins:400,700");
 /* ==========================================================================
    2. GENERAL
    ========================================================================== */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: #333;
   font-size: 16px;
   font-weight: 500;
@@ -47,7 +47,7 @@ a {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Josefin sans', sans-serif;
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -97,18 +97,19 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    2.1 Section Title
    ========================================================================== */
 .section {
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
 
 .section-header {
   color: #fff;
-  margin-bottom: 40px;
+  margin: 40px 0 0 0;
   text-align: center;
+  z-index: -1;
 }
 
 .section-header .section-title {
   font-size: 42px;
-  margin-top: 0;
+  margin: 99px 0 30px 0;
   text-transform: uppercase;
   font-weight: 700;
   color: #333;
@@ -199,7 +200,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .btn-border:hover {
   border: 2px solid #fff;
   color: #fff;
-  background-color: #FF3939;
+  background-color: rgb(143, 120, 120);
 }
 
 .btn-lg {
@@ -323,6 +324,7 @@ button:focus {
   overflow: hidden;
   position: relative;
   display: block;
+  margin: 150px 0 0 0;
   max-width: 100%;
   height: auto;
   image-resolution: 60px;
@@ -407,6 +409,7 @@ button:focus {
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 #hero-section .contents p {
@@ -522,18 +525,33 @@ button:focus {
   background: #FF3939;
 }
 
-@media screen and (max-width: 1053px){
+@media screen and (max-width: 1440px)  {
 .mobile-menu {
     display: contents;
 
   }
- 
+  #hero-section {
+    background: url('../img/slide.png') no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin: 2px;
+    max-width: 100%;
+    height: auto;
+    image-resolution: 60px;
+  }
 }
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 2101px) {
   #nav-main li a.nav-link {
     padding-top: 18px;
+  }
+  #hero-section .contents {
+    padding: 150px 0 130px;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     color: #fff;
@@ -619,7 +637,7 @@ button:focus {
    ========================================================================== */
    .item-boxes {
   text-align: center;
-  padding: 0px 15px;
+  padding: 30px 15px;
   margin-bottom: 15px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -739,9 +757,10 @@ box-shadow: 0px 13px 64px -31px rgba(0,0,0,1);
   transition: all 0.3s;
 }
 ::selection {
-  background: #FF3939;
+  background: rgb(170, 27, 27);
   color: #fff;
 }
+
 
 .values-table:hover {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
@@ -864,6 +883,7 @@ footer {
 
 .footer-links li a:hover {
   color: #FF3939;
+  
 }
 
 .copyright {
