@@ -172,7 +172,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-common {
-  background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
+  background-image: linear-gradient(to right, #e83f3f 0%, #b31217 51%, #e83f3f 100%);
   position: relative;
   color: #fff;
   z-index: 1;
@@ -184,7 +184,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-common:hover {
   color: #fff;
-  background-image: linear-gradient(to right, #b31217 10%, #e52d27 100%,  #b31217 10%); 
+  background-image: linear-gradient(to right, #b31217 10%, #e83f3f 100%,  #b31217 10%); 
   box-shadow: 1px 1px 20px 1px rgba(77, 77, 77, 0.3);
 
  
@@ -914,7 +914,7 @@ footer {
 }
 
 .btn-common {
-  background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
+  background-image: linear-gradient(to right, #e83f3f 0%, #b31217 51%, #e52d27 100%);
   position: relative;
   color: #fff;
   z-index: 1;
