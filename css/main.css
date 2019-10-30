@@ -3,7 +3,7 @@
    2. GENERAL
    ========================================================================== */
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #333;
   font-size: 16px;
   font-weight: 500;
@@ -36,7 +36,7 @@ p {
 
 
 a:hover, a:focus {
-  color: #FF3939;
+  color: #e83f3f;
 }
 
 a {
@@ -47,7 +47,7 @@ a {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Josefin sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -63,7 +63,7 @@ h2{
 h5{
   font-family: 'Poppins', sans-serif;
   font-size: 22px;
-  color: #FF3939;
+  color: #e83f3f;
   font-weight: 700;
   letter-spacing: 1px;
   padding: 0 10px;
@@ -117,7 +117,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .section-header .section-title span {
-  color: #FF3939;
+  color: #e83f3f;
 }
 
 .section-header .section-subtitle {
@@ -131,7 +131,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin: auto;
   width: 70px;
   position: relative;
-  border-top: 2px solid #FF3939;
+  border-top: 2px solid #e83f3f;
   margin-top: 15px;
 }
 .section-header .lines2 {
@@ -253,7 +253,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #FF3939;
+  background-color: #e83f3f;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -306,7 +306,7 @@ button:focus {
   font-size: 14px;
   text-align: center;
   border-radius: 4px;
-  background-color: #FF3939;
+  background-color: #e83f3f;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -341,7 +341,7 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #FF3939;
+  background: #e83f3f;
   opacity: 0.9;
 }
 
@@ -415,7 +415,7 @@ button:focus {
 #hero-section .contents p {
   font-size: 40px;
   line-height : 48px;
-  color: #D41014;
+  color: #e83f3f;
   letter-spacing: 1.0px;
   font-weight: bold;
   padding: 30 0px
@@ -440,7 +440,7 @@ button:focus {
 }
 
 #hero-section .banner_bottom_btn i:hover {
-  color: #FF3939;
+  color: #e83f3f;
 }
 
 /* ==========================================================================
@@ -477,11 +477,11 @@ button:focus {
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
-  color: #FF3939 !important;
+  color: #e83f3f !important;
 }
 
 .top-nav-collapse .navbar-nav .nav-link.active {
-  color: #D41014 !important;
+  color: #e83f3f !important;
 }
 
 .indigo {
@@ -505,12 +505,12 @@ button:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active > a,
 .navbar-expand-lg .navbar-nav li a:focus {
-  color: #FF3939;
+  color: #e83f3f;
 }
 
 .navbar .nav-link.active {
   color: #fff !important;
-  background: #FF3939;
+  background: #e83f3f;
 }
 
 .dropdown-toggle::after {
@@ -518,11 +518,11 @@ button:focus {
 }
 
 .slicknav_btn {
-  border-color: #FF3939;
+  border-color: #e83f3f;
 }
 
 .slicknav_menu .slicknav_icon-bar {
-  background: #FF3939;
+  background: #e83f3f;
 }
 
 @media screen and (max-width: 1440px)  {
@@ -619,16 +619,16 @@ button:focus {
     display: block;
   }
   .slicknav_nav .active a {
-    background: #FF3939;
+    background: #e83f3f;
     color: #fff;
   }
   .slicknav_nav a:hover, .slicknav_nav .active {
-    color: #FF3939;
+    color: #e83f3f;
     background: #f8f9fa;
   }
   .slicknav_nav .dropdown li a.active {
     background: #f8f9fa;
-    color: #FF3939;
+    color: #e83f3f;
   }
 }
 
@@ -660,7 +660,7 @@ button:focus {
 .item-boxes .icon i {
   font-size: 26px;
   line-height: 60px;
-  color: #FF3939;
+  color: #e83f3f;
 }
 
 .item-boxes h4 {
@@ -670,7 +670,7 @@ button:focus {
 }
 
 .item-boxes:hover .icon {
-  background: #FF3939;
+  background: #e83f3f;
 }
 
 .item-boxes:hover .icon i {
@@ -709,7 +709,7 @@ box-shadow: 0px 13px 64px -31px rgba(0,0,0,1);
 .picture-icon :hover{
   font-size: 26px;
   line-height: 60px;
-  color: #FF3939;
+  color: #e83f3f;
   
 
 
@@ -780,7 +780,7 @@ box-shadow: 0px 13px 64px -31px rgba(0,0,0,1);
   display: inline-block;
   font-size: 48px;
   font-weight: 400;
-  color: #FF3939;
+  color: #e83f3f;
   margin-bottom: 20px;
 }
 
@@ -808,7 +808,7 @@ box-shadow: 0px 13px 64px -31px rgba(0,0,0,1);
 }
 
 .contact-us p span {
-  color: #FF3939;
+  color: #e83f3f;
   padding-left: 10px;
 }
 
@@ -835,7 +835,7 @@ box-shadow: 0px 13px 64px -31px rgba(0,0,0,1);
 .form-control:focus {
   box-shadow: none;
   color: #fff;
-  border-color: #FF3939;
+  border-color: #e83f3f;
   background-color: #343a40;
   outline: none;
 }
@@ -882,7 +882,7 @@ footer {
 }
 
 .footer-links li a:hover {
-  color: #FF3939;
+  color: #e83f3f;
   
 }
 
@@ -900,14 +900,14 @@ footer {
 }
 
 .copyright p a:hover {
-  color: #FF3939;
+  color: #e83f3f;
 }
 
 @media screen and (max-width: 480px) {
   #hero-section .contents p {
     font-size: 30px;
     line-height: 48px;
-    color: #D41014;
+    color: #e83f3f;
     letter-spacing: 1.0px;
     font-weight: bold;
     padding: 10px;
